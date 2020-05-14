@@ -15,34 +15,54 @@
 	</head>
 
 	<body>
-    <div class="container">
-      <div class="center">
-        <div class="row ">      
-          <div class="login_container col s12">
-            <h1> Demeter Parking </h1>
-            <form class="col s12">
-              <div class="row">
-                <div class = "col l3"></div>
-                <div class="input-field col s12 l6">
-                  <input id="password" type="password" class="validate">
-                  <label for="password">Password</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class = "col l3"></div>
-                <div class="input-field col s12 l6">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                </div>
-              </div>
-            </form>
-            <a class="waves-effect waves-light btn" href="home.html">LOGIN</a>
-          </div>
-        </div>
-      </div>
-    </div>
+        <div class="container">
+            <div class="row">
+                <h1 id="left_marg"><b>Home Page</b></h1>
+            </div>
+            <div class="card_container" id="lots_stuff">
+                <div>
+                    <h2>My Lots</h2>
 
-    <script src="js/materialize.min.js"></script>
+                    <h3>Lot A</h3>
+                    <h5>
+                        2708 Randall Loop, Dublin, CA, 94568
+                    <br />
+                        $5 (full day)
+                    <br />
+                        Arrival @ 3:00 PM
+                    <br />
+                        Departure @ 6:45 PM
+                    <br />
+                        1/1 spaces booked
+                    <br />
+                        No special conditions
+                    <br />
+                    <br />
+                        <a class="generallink">Renew</a> or <a class="generallink">Cancel</a>
+                    </h5>
+
+                    <h3>Lot B</h3>
+                    <h5>
+                        2709 Randall Loop, Dublin, CA, 94568
+                    <br />
+                        Arrival @ 3:00 PM
+                    <br />
+                        Departure @ 6:45 PM
+                    <br />
+                        1/2 spaces booked
+                    <br />
+                        Small Vehicles only
+                    <br />
+                    <br />
+                        <a class="generallink">Renew</a> or <a class="generallink">Cancel</a>
+                    </h5>
+                </div>
+            </div>
+
+            <a class="waves-effect waves-light btn" href="search.html" id="bot_marg">New Lot</a>
+        </div>
+
+        <script src="js/materialize.min.js"></script>
 	</body>
 
 </html>

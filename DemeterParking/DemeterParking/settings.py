@@ -124,6 +124,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "/ParkingApp/static"),
 ]
 LOGIN_URL = '/login'
-LOGIN_REDIRECT_URL = '/pleasereplaceinsettings'
-LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/'
 APPEND_SLASH = True

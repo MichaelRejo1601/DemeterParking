@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
+from django.contrib.auth import urls as auth_urls
 import ParkingApp.views as views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(django.contrib.auth.urls")),
-    path('/register', views.register, name=register),
+    path('', include(auth_urls)),
+    path('register', views.register, name='register'),
+    path('', views.landing, name='landing'),
 ]
