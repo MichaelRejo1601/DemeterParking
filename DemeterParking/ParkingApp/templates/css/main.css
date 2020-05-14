@@ -1,0 +1,80 @@
+#login_container{
+  margin-top: 5vh;
+}
+
+#login_form_cont{
+  margin-top: 5vh;
+}
+
+.login_container{
+  border-radius: 35px;
+  /*
+  border: 1px solid black;
+  */
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
+  margin: 15px;
+  padding: 15px;
+  margin-top: 15vh;
+}
+
+.login_container a{
+  margin-bottom: 2vh;
+}
+
+.card_container{
+  border-radius: 35px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
+  margin: 15px;
+  padding: 15px;
+}
+
+#lots_stuff h3{
+  border-top: rgba(0,0,0,0.2) 2px dotted;
+  padding-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+#lots_stuff h5{
+  margin-bottom: 4vh;
+}
+
+#lots_stuff div{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+#left_marg{
+  margin-left: 4vw;
+}
+
+#bot_marg{
+  margin-left: 4vw;
+  margin-bottom: 4vh; 
+}
+
+#top_marg{
+  margin-left: 4vw;
+  margin-top: 2.5vh; 
+}
+
+.generallink {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+  -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+.generallink:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+#white{
+  background-color: white;
+}
