@@ -12,7 +12,7 @@ from django.core.exceptions import PermissionDenied
 
 def landing(request):
     context = {}
-    return render(request, "landing.html", context)
+    return render(request, "index.html", context)
 
 def register(response):
     if response.method == "POST":
