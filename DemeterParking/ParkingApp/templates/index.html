@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    {% load static %}
     <meta charset="UTF-8">
     <title>Demeter Parking</title>
 
-    <link rel="stylesheet" type = "text/css" href="css/materialize.min.css">
-	  <link rel="stylesheet" type = "text/css" href="css/main.css">
+    
+    <link rel="stylesheet" type = "text/css" href="{% static 'css\materialize.min.css' %}">
+	<link rel="stylesheet" type = "text/css" href="{% static 'css\main.css' %}">
 
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="{% static 'js\jquery-3.4.1.min.js' %}"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 

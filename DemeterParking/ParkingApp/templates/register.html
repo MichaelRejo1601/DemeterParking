@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Demeter Parking</title>
+
+    <link rel="stylesheet" type = "text/css" href="css/materialize.min.css">
+	  <link rel="stylesheet" type = "text/css" href="css/main.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	</head>
+
+	<body>
+    <div class="container">
+      <div class="center">
+        <div class="row ">
+          <div class="login_container col s12">
+            <h1> Demeter Parking </h1>
+            <form method="POST">
+              {% csrf_token %}
+              {{form}}
+              <button type='submit'>Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+	</body>
+
+</html>
